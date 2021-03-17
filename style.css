@@ -1,0 +1,198 @@
+body {
+    height: 85vh;
+	background: linear-gradient(rgba(0,0,0,0.4), transparent 1px),
+	linear-gradient(90deg, rgba(0,0,0,0.4), transparent 1px);
+	background-size: 30px 30px;
+	
+}
+
+h1 {
+    text-align: center;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color:cornflowerblue;
+    font-weight: bold;
+    font-size: 36px;
+    
+}
+
+.menu-button {
+    border: none;
+	color: #fff;
+	background: green;
+	padding: 10px 16px;
+	font-size: 22px;
+	border-radius: 5px;
+	cursor: pointer;
+	text-align: center;
+    width: 100%;
+
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 80%;
+    flex-wrap: wrap;
+}
+
+.row>div:nth-child(2) {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.row > div:nth-child(2) > div {
+    width: 20%;
+}
+
+
+/* support*/
+.support-servie {
+    display: none;
+}
+
+.txt-area {
+    display: none;
+    justify-content: flex-end;
+
+}
+
+.review {
+    margin-bottom: 10px;
+}
+
+.exit-button > button {
+    padding: 10px;
+    
+}
+
+.support-answer {
+    visibility: hidden;
+    display: none;
+}
+
+.exit-button {
+    width:100%;
+    text-align: center;
+    display: none;
+}
+
+.exit-button  > button {
+    background: red;
+    border: none;
+	color: #fff;
+    padding: 10px 16px;
+	font-size: 22px;
+	cursor: pointer;
+	text-align: center;
+    width: 20%;
+
+}
+/* endsupport*/
+
+/*menu*/
+.menu {
+    display: none;
+}
+
+.menu > div {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.menu >div:nth-child(2) {
+    margin-top: 80px;
+}
+
+.dish {
+    width: 20%;
+}
+
+.dish > p {
+    font-size: 20px;
+    font-style: italic;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+.dish > img {
+    max-width: 100%;
+    border: 5px solid aquamarine;   
+}
+
+.orders {
+    display: flex;
+    justify-content: space-between;
+}
+
+.orders button {
+    padding: 15px;
+    background-color:chocolate;
+    box-shadow: 0 0 5px 2px red;
+    border: none;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.menu > div:nth-child(2) button {
+    padding: 20px 50px;
+    color: white;
+    border:none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.menu > div:nth-child(2) button:nth-child(1) {
+    background-color: green;
+}
+
+.menu > div:nth-child(2) button:nth-child(2) {
+    background-color: red;
+}
+/*endmenu*/
+
+/*orderes*/
+.orderes {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    
+    flex-direction: column;
+}
+
+.orderes > button {
+    margin-bottom: 25px;
+    width: 20%;
+    border:none;
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-size: 20px;
+    color: white;
+}
+
+.confirm_order {
+    background-color: green;
+    margin-top: 100px;
+    display: none;
+}
+
+.tomenu_order {
+    background-color: red;
+    display: none;
+}
+
+.order_list {
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+.order_list p {
+    margin-bottom: 15px;
+}

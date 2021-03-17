@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Choice</title>
+    <link rel="shortcut icon" href="images/iconka.png" type="image/png">
+    <link rel="stylesheet" href ="style.css">
+</head>
+<body>
+    
+    <div class="row">
+        <div><h1>Welcome to Your Choise</h1></div>
+        <div>
+        <div >
+        <button class="menu-button menubutton">Main menu</button>
+    </div>
+    <div >
+        <button class="menu-button orderbutton">Order checking</button>
+    </div>
+    <div >
+        <button class="menu-button supbutton">Support service</button>
+    </div>
+    </div>
+</div>
+
+    <div class="support-service"> <!-- Служба поддержки -->
+        <div class="txt-area">
+        <textarea class="review" rows="6" cols="50" placeholder="Enter your review"></textarea>
+        </div>  
+        <div class="txt-area">
+        <button class="sell_to_sup">Send</button>
+        </div>    
+    </div>
+    <div class="support-answer">
+        <textarea  rows="6" cols="50">
+Thanks for your review. We will try for our guests and friends :)
+I think that conversation is over
+Best wishes,
+Support Service
+</textarea>
+    </div>
+    <div class="exit-button"><button>Exit</button></div>
+
+    <div class="menu"> <!-- Основное меню -->
+        <div>
+            <div class="dish">
+                <img src="images/borcht.jpg" alt="">
+                <p class="borcht">Borcht</p>
+                <div class="orders">
+                    <button class="add_to_menu_borcht">Add</button>
+                    <button>Change it!</button>
+                    <button class="remove_from_menu_borcht">Remove</button>
+                </div>
+            </div>
+    
+            <div class="dish">
+                <img src="images/schi.jpeg" alt="">
+                <p class="shchi">Shchi</p>
+                <div class="orders">
+                    <button class="add_to_menu_shchi">Add</button>
+                    <button>Change it!</button>
+                    <button class="remove_from_menu_shchi">Remove</button>
+                </div>
+            </div>
+    
+            <div class="dish">
+                <img src="images/Orloff.jpg" alt="">
+                <p class="orloff">Veal Orloff</p>
+                <div class="orders">
+                    <button class="add_to_menu_orloff">Add</button>
+                    <button>Change it!</button>
+                    <button class="remove_from_menu_orloff">Remove</button>
+                </div>
+            </div>
+        </div>
+        <div><button class="menu_accept">Accept</button><button class="menu_cancel">Cancel</button></div>
+    </div>
+ 
+    <div class="orderes"> <!-- Слежка заказа -->
+        <div class="order_list">
+        
+        </div>
+        <button class="confirm_order">Confirm order</button>
+        <button class="tomenu_order">Back to menu</button>
+    </div>
+
+
+</body>
+</html>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="scripts.js"></script>
